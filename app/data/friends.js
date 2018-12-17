@@ -31,4 +31,4 @@
         //absolute differences so no negatives
         //closest match is the least amount of difference
 
-        //show the best match as a modal pop-up with name and picture of the match
+    //show the best match as a modal pop-up with name and picture of the match
