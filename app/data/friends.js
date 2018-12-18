@@ -1,23 +1,22 @@
 
-
-
 //save the application data here as an array of objects like this:
-// {
-//     "name":"Moana",
-//     "photo":"https://pbs.twimg.com/profile_images/819955513718779905/DY4UfMVj_400x400.jpg",
-//     "scores":[
-//         5,
-//         1,
-//         4,
-//         4,
-//         5,
-//         1,
-//         2,
-//         5,
-//         4,
-//         1
-//     ]
-// };
+var friends =
+{
+    "name":"Moana",
+    "photo":"https://pbs.twimg.com/profile_images/819955513718779905/DY4UfMVj_400x400.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+    ]
+};
 
 //determine the user's most compatible friends:
     //convert each user's results into an array of numbers
