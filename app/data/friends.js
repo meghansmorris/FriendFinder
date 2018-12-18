@@ -1,5 +1,6 @@
 
 //save the application data here as an array of objects like this:
+//default friend list - add more
 var friends =
 {
     "name":"Moana",
@@ -17,6 +18,10 @@ var friends =
         1
     ]
 };
+
+function totalDifference() {
+
+}
 
 //determine the user's most compatible friends:
     //convert each user's results into an array of numbers

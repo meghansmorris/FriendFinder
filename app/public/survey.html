@@ -157,7 +157,7 @@
           var newFriend = {
             name: $("#name").val().trim(),
             photo: $("#photo").val().trim(),
-            q1: $("#first").val(),
+            q1: $("#first").val(), //score should be an array not each question..
             q2: $("#second").val(),
             q3: $("#third").val(),
             q4: $("#fourth").val(),
@@ -166,7 +166,7 @@
             q7: $("#seventh").val(),
             q8: $("#eighth").val(),
             q9: $("#ninth").val(),
-            q10: $("#tenth").val(),
+            q10: $("#tenth").val()
           };
     
           $.post("/api/friends", newFriend)
