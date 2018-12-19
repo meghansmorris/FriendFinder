@@ -1,5 +1,6 @@
 var express = require("express");
 var path = require("path");
+var fs = require("fs");
 
 // Sets up the Express App
 // =============================================================
@@ -11,7 +12,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
-
-app.listen(PORT, function () {
+app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
-});
+  });
