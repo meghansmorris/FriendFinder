@@ -1,7 +1,7 @@
 
 //save the application data here as an array of objects like this:
-//default friend list - add more
-var friends =
+//default friend list
+var friends = [
 {
     "name":"Moana",
     "photo":"https://pbs.twimg.com/profile_images/819955513718779905/DY4UfMVj_400x400.jpg",
@@ -17,11 +17,27 @@ var friends =
         4,
         1
     ]
-};
-
-function totalDifference() {
-
+},
+{
+    "name":"Robin Hood",
+    "photo":"https://vignette.wikia.nocookie.net/disney/images/4/42/Robin_Hood_Disney.jpg/revision/latest?cb=20160706144649",
+    "scores":[
+        5,
+        1,
+        5,
+        2,
+        4,
+        2,
+        4,
+        2,
+        3,
+        3
+    ]
 }
+];
+
+module.exports = friends;
+
 
 //determine the user's most compatible friends:
     //convert each user's results into an array of numbers
