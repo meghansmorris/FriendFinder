@@ -189,11 +189,14 @@
           };
           console.log(values);
           console.log(newFriend);
+
+          var currentURL = window.location.origin;
     
-          $.post("/api/friends", newFriend)
+          $.post(currentURL + "/api/friends", newFriend)
             .then(function (data) {
               console.log("survey.html", data);
               alert("Your survey information has been added to FriendFinder!")
+                //add in if else to make sure all fields are completed
             });
         });
     });
