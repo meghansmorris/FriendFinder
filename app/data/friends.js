@@ -5,7 +5,7 @@ var friends = [
 {
     "name":"Moana",
     "photo":"https://pbs.twimg.com/profile_images/819955513718779905/DY4UfMVj_400x400.jpg",
-    "scores":[
+    "questions":[
         5,
         1,
         4,
@@ -21,7 +21,7 @@ var friends = [
 {
     "name":"Robin Hood",
     "photo":"https://vignette.wikia.nocookie.net/disney/images/4/42/Robin_Hood_Disney.jpg/revision/latest?cb=20160706144649",
-    "scores":[
+    "questions":[
         5,
         1,
         5,
