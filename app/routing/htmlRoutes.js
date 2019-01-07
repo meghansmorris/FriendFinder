@@ -8,7 +8,7 @@ app.get("/survey", function(req, res) {
   });
   
 //default route that leads to home.html
-  app.get("*", function(req, res) {
+  app.get("/", function(req, res) {
     res.sendFile(path.join(__dirname, "/../home.html"));
   });
 };
